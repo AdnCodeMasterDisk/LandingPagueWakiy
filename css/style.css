@@ -325,3 +325,8 @@ header::before {
     }
 }
 
+.formulario{
+    height: 350px;
+    width: 100%;
+}
+
