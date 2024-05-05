@@ -322,3 +322,21 @@ header {
     height: 550px;
     width: 100%;
 }
+
+.btnformulario{
+    padding: 20px;
+    width: 350px;
+    animation: btnfooter 1.5s ease-in-out infinite; 
+}
+
+@keyframes btnfooter {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
